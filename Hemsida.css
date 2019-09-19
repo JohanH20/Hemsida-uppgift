@@ -1,0 +1,37 @@
+.meny{
+	overflow: hidden;
+	background-color: black;
+}
+.meny a{
+	float:left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 40px;
+	text-decoration: none;
+}
+.meny a:hover{
+	background-color: #848385;
+	color:black;
+}
+.header{
+	background-color: #605f61;
+	padding: 10px;
+	text-align: center;
+	background: url(https://www.cornishsecrets.co.uk/wp-content/uploads/2019/03/waves-sunset-2000x300.jpg) center top;
+}
+th,td,table{
+	border: 1px solid black;
+	border-collapse:collapse;
+	width: 500px;
+}
+th,td{
+	text-align: center;
+}
+tr:nth-child(even){
+	background-color: black;
+	color: white;
+}
+th{
+	background-color: #848385;
+}
