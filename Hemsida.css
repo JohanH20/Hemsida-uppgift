@@ -1,52 +1,80 @@
+/*En klasselektor för meny som ändrar meny-klassen*/
 .meny{
+	/*Gömmer div boxen så man inte ser det som är utanför den*/
 	overflow: hidden;
+	/*Ändrar backgrunds färgen till svart*/
 	background-color: black;
 }
+/*Den ändrar bara länkarna i menyn*/
 .meny a{
+	/*Bestämmer att länkarna ska vara till vänster i div boxen*/
 	float:left;
+	/*Visar vad ett element gör*/
 	display: block;
+	/*ändrar text färgen till vit*/
 	color: white;
+	/*Gör så att texten är i mitten av boxarna*/
 	text-align: center;
+	/*Bestämmer hur långt ut från elementen som ska vara ett block*/
 	padding: 10px 40px;
+	/*Gör så att länkarna inte byter färg om man har besökt dem eller liknande*/
 	text-decoration: none;
 }
+/*Använder pseudoklassen Hover för att ändra på länkarna när man har muspekaren över länken*/
 .meny a:hover{
 	background-color: #848385;
 	color:black;
 }
+/*Ändrar hur det ser ut i header klassen*/
 .header{
 	background-color: #605f61;
 	padding: 10px;
 	text-align: center;
+	/*Gör så att bakgrunden blir en bild inom div*/
 	background: url(https://www.cornishsecrets.co.uk/wp-content/uploads/2019/03/waves-sunset-2000x300.jpg) center top;
 }
+/*En gruppselektor för th td och tabellen*/
 th,td,table{
+	/*Lägger till en ram runt alla i gruppselektorn*/
 	border: 1px solid black;
+	/*gör så att ramarna sätts ihop*/
 	border-collapse:collapse;
+	/*Ändrar breden på alla i gruppselektorn*/
 	width: 600px;
 }
+/*En gruppselektor för th och td som ändrar hur de ser ut*/
 th,td{
 	text-align: center;
 }
+/*En pseudoklass som ändrar varanan rad i en tabell*/
 tr:nth-child(even){
 	background-color: black;
 	color: white;
 }
+/*Ändrar vad som händer med tabellhuvudraden*/
 th{
 	background-color: #848385;
 }
+/*Ändrar vad som händer med tabellen*/
 table{
+	/*Gör så att tabellen flyttas 10 pixlar från toppen*/
 	margin-top: 10px;
+	/*Gör så att tabellen flyttas 50 pixlar från vänster*/
 	margin-left: 50px;
 }
+/*Ändrar Hur listan på sida 3 ska se ut*/
 ul{
 	margin-top: 20px;
 }
+/*esb klassen ändrar bilden på empire state building*/
 .esb{
 	margin-left: 800px;
 }
+/*kontor ändrar bilden på kontoret på sida 3*/
 .kontor{
-	lenght: 400px;
+	/*Ändrar höjden på bilden*/
+	height: 400px;
+	/*Ändrar bredden på bilden*/
 	width: 600px;
 	margin-bottom: 350px;
 }
